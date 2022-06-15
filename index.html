@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>İş Sepeti</title>
+</head>
+<body>
+<!--==================== HEADER ====================-->
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="#" class="nav__logo">
+            İş Sepeti <i class="bx bxs-home-alt-2"></i>
+        </a>
+        <div class="nav__menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">
+                        <i class="bx bx-home-alt-2"></i>
+                        <span>Anasayfa</span>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#popular" class="nav__link">
+                        <i class="bx bx-building-house"></i>
+                        <span>İşler</span>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#value" class="nav__link">
+                        <i class="bx bx-award"></i>
+                        <span>Sık Sorulan Sorular</span>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">
+                        <i class="bx bx-phone"></i>
+                        <span>İletişim</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Theme change button -->
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+
+        <a href="#" class="button nav__button">
+            Kayıt Ol
+        </a>
+    </nav>
+</header>
+
+<!--==================== MAIN ====================-->
+<main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+        <div class="home__container container grid">
+            <div class="home_data">
+                <h1 class="home__title">
+                    Aradığın <br> En Uygun İş <br> Burada
+                </h1>
+                <p class="home__description">
+                    Boş zamanını değerlendirmek mi istiyorsun? <br/>
+                    İş gücüne ihtiyacın var fakat eleman mı bulamıyorsun? <br/>
+                    Aradığın iş/çalışan tam olarak burada !
+                </p>
+                <!-- <form action="" class="home__search">
+                    <i class="bx bxs-map"></i>
+                    <input type="search" name="" placeholder="Lokasyon .." class="home__search-input">
+                    <button class="button">İş Bul</button>
+                </form> -->
+
+                <!-- <div class="home__value">
+                    <div>
+                        <h1 class="home__value-number">
+                            9K <span>+</span>
+                        </h1>
+                        <span class="home__value-description">
+Premium                    Premium <br> Product
+                        </span>
+                    </div>
+                    <div>
+                        <h1 class="home__value-number">
+                            2K <span>+</span>
+                        </h1>
+                        <span class="home__value-description">
+Premium                    Happy <br> Customer
+                        </span>
+                    </div>
+                    <div>
+                        <h1 class="home__value-number">
+                            28K <span>+</span>
+                        </h1>
+                        <span class="home__value-description">
+Premium                    Awards <br> Winning
+                        </span>
+                    </div>
+                </div> -->
+            </div>
+            <div class="home__images">
+                <div class="home__orbe"></div>
+                <div class="home__img">
+                    <img src="assets/img/handshake.jpg" alt="">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== LOGOS ====================-->
+    <section class="logos section">
+        <div class="logos__container container grid">
+            <div class="logos__img">
+                <img src="assets/img/logo1.png" alt="">
+            </div>
+            <div class="logos__img">
+                <img src="assets/img/logo2.png" alt="">
+            </div>
+            <div class="logos__img">
+                <img src="assets/img/logo3.png" alt="">
+            </div>
+            <div class="logos__img">
+                <img src="assets/img/logo4.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--==================== POPULAR ====================-->
+    <section class="section" id="popular">
+        <div class="container">
+            <span class="section__subtitle">Yüzlerce iş seçeneği ile</span>
+            <h2 class="section__title">
+                Hangi İşlerde Çalışabilirim <span>?</span>
+            </h2>
+            <div class="popular__container swiper">
+                <div class="swiper-wrapper">
+                    <article class="popular__card swiper-slide">
+                        <img src="assets/img/barista.jpg" alt="" class="popular__img">
+                        <div class="popular__data">
+                            <h3 class="popular__title">
+                                Barista
+                            </h3>
+                            <p class="popular__description">
+                                Reklam amaçlı içerik ...
+                            </p>
+                        </div>
+                    </article>
+                    <article class="popular__card swiper-slide">
+                        <img src="assets/img/waiter.jpg" alt="" class="popular__img">
+                        <div class="popular__data">
+                            <h3 class="popular__title">
+                                Garson
+                            </h3>
+                            <p class="popular__description">
+                                Reklam amaçlı içerik ...
+                            </p>
+                        </div>
+                    </article>
+                    <article class="popular__card swiper-slide">
+                        <img src="assets/img/movers.jpg" alt="" class="popular__img">
+                        <div class="popular__data">
+                            <h3 class="popular__title">
+                                Taşıma ve Paketleme
+                            </h3>
+                            <p class="popular__description">
+                                Reklam amaçlı içerik ...
+                            </p>
+                        </div>
+                    </article>
+                    <article class="popular__card swiper-slide">
+                        <img src="assets/img/cashier.jpg" alt="" class="popular__img">
+                        <div class="popular__data">
+                            <h3 class="popular__title">
+                                Kasiyer
+                            </h3>
+                            <p class="popular__description">
+                                Reklam amaçlı içerik ...
+                            </p>
+                        </div>
+                    </article>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="bx bx-chevron-right"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="bx bx-chevron-left"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== VALUE ====================-->
+    <section class="value section" id="value">
+        <div class="value__container container grid">
+            <div class="value__images">
+                <div class="value__orbe"></div>
+                <div class="value__img">
+                    <img src="assets/img/value.jpg" alt="">
+                </div>
+            </div>
+            <div class="value__content">
+                <div class="value__data">
+                    <span class="section__subtitle">Sorularınıza yanıt veriyoruz</span>
+                    <h2 class="section__title">
+                        Sık Sorulan Sorular<span>.</span>
+                    </h2>
+                    <p class="value__description">
+                        Reklam amaçlı birkaç cümle<br/>
+                        Reklam amaçlı birkaç cümle vs vs vs vs
+                    </p>
+                </div>
+            <div class="value__accordion">
+                <div class="value__accordion-item">
+                    <header class="value__accordion-header">
+                        <i class="bx bxs-shield-x value__accordion-icon"></i>
+                        <h3 class="value__accordion-title">
+                            Soru 1
+                        </h3>
+                        <div class="value__accordion-arrow">
+                            <i class="bx bxs-down-arrow"></i>
+                        </div>
+                    </header>
+                    <div class="value__accordion-content">
+                        <p class="value__accordion-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ab sint voluptatem atque vitae esse quas, velit sed consequatur dignissimos eaque, hic minima quasi reprehenderit autem tempore? Repudiandae, quibusdam voluptatibus!
+                        </p>
+                    </div>
+                </div>
+                <div class="value__accordion-item">
+                    <header class="value__accordion-header">
+                        <i class="bx bxs-x-square value__accordion-icon"></i>
+                        <h3 class="value__accordion-title">
+                            Soru 2
+                        </h3>
+                        <div class="value__accordion-arrow">
+                            <i class="bx bxs-down-arrow"></i>
+                        </div>
+                    </header>
+                    <div class="value__accordion-content">
+                        <p class="value__accordion-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui facilis incidunt placeat eligendi, autem iure. Commodi est beatae saepe enim optio molestiae fuga. Asperiores earum laboriosam quos labore fugit provident.
+                        </p>
+                    </div>
+                </div>
+                <div class="value__accordion-item">
+                    <header class="value__accordion-header">
+                        <i class="bx bxs-bar-chart-square value__accordion-icon"></i>
+                        <h3 class="value__accordion-title">
+                            Soru 3
+                        </h3>
+                        <div class="value__accordion-arrow">
+                            <i class="bx bxs-down-arrow"></i>
+                        </div>
+                    </header>
+                    <div class="value__accordion-content">
+                        <p class="value__accordion-description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere nihil numquam dicta ad esse nemo harum delectus eveniet accusamus ducimus aliquam sequi porro, iste veniam! Omnis autem temporibus atque saepe!
+                        </p>
+                    </div>
+                </div>
+                <div class="value__accordion-item">
+                    <header class="value__accordion-header">
+                        <i class="bx bxs-check-square value__accordion-icon"></i>
+                        <h3 class="value__accordion-title">
+                            Soru 4
+                        </h3>
+                        <div class="value__accordion-arrow">
+                            <i class="bx bxs-down-arrow"></i>
+                        </div>
+                    </header>
+                    <div class="value__accordion-content">
+                        <p class="value__accordion-description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et vero eum, omnis totam nam aliquid voluptas laboriosam architecto numquam accusamus saepe iure voluptatibus repellendus consequuntur vitae rerum ipsum, aperiam incidunt?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--==================== CONTACT ====================-->
+    <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+            <div class="contact__images">
+                <div class="contact__orbe"></div>
+                <div class="contact__img">
+                    <img src="assets/img/contact.png" alt="">
+                </div>
+            </div>
+
+            <div class="contact__contact">
+                <div class="contact_data">
+                    <span class="section-subtitle">İletişim</span>
+                    <h2 class="section__title">
+                        Bizimle iletişime geçin <span>.</span>
+                    </h2>
+                    <p class="contact__description">
+                        Her türlü soru, öneri ve şikayeteriniz için lütfen bizimle
+                        iletişime geçmekten çekinmeyin. Sizin için buradayız.
+                    </p>
+                </div>
+
+                <div class="contact__card">
+                    <div class="contact__card-box">
+                        <div class="contact__card-info">
+                            <i class="bx bxs-phone-call"></i>
+                            <div>
+                                <h3 class="contact_card-title">
+                                    Telefon
+                                </h3>
+                                <p class="contact__card-description">
+                                    05xx xxx xx xx
+                                </p>
+                            </div>
+                        </div>
+
+                        <button class="button contact__card-button">
+                            Ara
+                        </button>
+                    </div>
+                    <div class="contact__card-box">
+                        <div class="contact__card-info">
+                            <i class="bx bxs-message-rounded-dots"></i>
+                            <div>
+                                <h3 class="contact_card-title">
+                                    Mesaj
+                                </h3>
+                                <p class="contact__card-description">
+                                    05xx xxx xx xx
+                                </p>
+                            </div>
+                        </div>
+
+                        <button class="button contact__card-button">
+                            Mesaj Gönder
+                        </button>
+                    </div>
+                    <div class="contact__card-box">
+                        <div class="contact__card-info">
+                            <i class="bx bxs-video"></i>
+                            <div>
+                                <h3 class="contact_card-title">
+                                    WhatsApp
+                                </h3>
+                                <p class="contact__card-description">
+                                    05xx xxx xx xx
+                                </p>
+                            </div>
+                        </div>
+
+                        <button class="button contact__card-button">
+                            WhatsApp Chat
+                        </button>
+                    </div>
+                    <div class="contact__card-box">
+                        <div class="contact__card-info">
+                            <i class="bx bxs-envelope"></i>
+                            <div>
+                                <h3 class="contact_card-title">
+                                    Mail
+                                </h3>
+                                <p class="contact__card-description">
+                                    info@info.com
+                                </p>
+                            </div>
+                        </div>
+
+                        <button class="button contact__card-button">
+                            Mail Gönder
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== SUBSCRIBE ====================-->
+    <section class="subscribe section">
+        <div class="subscribe__container container">
+            <h1 class="subscribe__title">
+                Hemen Kaydolun
+            </h1>
+            <p class="subscibe__description">
+                Sitemize şuan kayıt olarak istediğiniz
+                işi istediğiniz saat arasında istediğiniz ücret ile yapma
+                fırsatı yakalayın !
+            </p>
+            <a href="#" class="button subscribe__button">
+                Kayıt Ol
+            </a>
+        </div>
+    </section>
+</main>
+
+<!--==================== FOOTER ====================-->
+<footer class="footer section">
+    <div class="footer__container container grid">
+        <div>
+            <a href="#" class="footer__logo">
+                İş Sepeti <i class="bx bxs-home-alt-2"></i>
+            </a>
+            <p class="footer__description">
+                Vizyonumuz tüm insanları <br>
+                hak ettikleri iş ile buluşturabilmek.
+            </p>
+        </div>
+        <div class="footer__content">
+            <div>
+                <h3 class="footer__title">
+                    Hakkımızda
+                </h3>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Hakkımızda</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Features</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">News & Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer__title">
+                    Company
+                </h3>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">How We Work?</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Capital</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Security</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer__title">
+                    Support
+                </h3>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">FAQs</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Support center</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer__title">
+                    Follow us
+                </h3>
+                <ul class="footer__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <i class="bx bxl-facebook-circle"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                        <i class="bx bxl-instagram"></i>
+                    </a>
+                    <a href="https://www.pinterest.com/" target="_blank" class="footer__social-link">
+                        <i class="bx bxl-pinterest"></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer__info container">
+        <span class="footer__copy">
+            &#169; 2022 karabayyazilim. All rights reserved.
+        </span>
+        <div class="footer__privacy">
+            <a href="#">Terms & Agreements</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+    </div>
+</footer>
+
+
+<!--========== SCROLL UP ==========-->
+<a href="#" class="scrollup" id="scroll-up">
+    <i class="bx bx-chevron-up"></i>
+</a>
+
+<!--=============== SCROLLREVEAL ===============-->
+<script src="assets/js/scrollreveal.min.js"></script>
+
+<!--=============== SWIPER JS ===============-->
+<script src="assets/js/swiper-bundle.min.js"></script>
+
+<!--=============== MAIN JS ===============-->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
